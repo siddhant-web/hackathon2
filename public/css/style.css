@@ -1,0 +1,278 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  font-size: 20px;
+}
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/****** LOGIN MODAL ******/
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+.login-menu{
+	padding-top: 13px;
+}
+.question{
+   font-size: 12px;
+    color: #000;
+}
+.qus-ans{
+	padding: 10px;
+    height: 100px;
+}
+.qus-aa{
+	color:#000;
+}
+.qus-aa:focus,.qus-aa:hover{
+	text-decoration: none;
+}
+.languages{
+font-size: 15px;
+    background-color: #26a69a;
+    color: #fff;
+    padding: 5px 30px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+.lagg{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.title-qus{
+	font-size: 25px;
+    margin-left: 13px;
+}
+.post-btnn{
+	width: 135px;
+}
+.qus{
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+}
+.logo{
+    height: 85px;
+    margin-top: 4px;
+	}
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.login.loginmodal-submit{
+  background-color:#26a69a;
+}
+.login.loginmodal-submit:hover{
+  background-color:#26a69a;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  background-color:#26a69a;
+}
+.modal.fade{
+    background-color: transparent;
+    box-shadow: none;
+	overflow: hidden;
+}
+.close{
+ margin-top: -23px;
+ margin-right: -15px;
+ }
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+.footer-copyright h5{
+  padding-left:10px;
+}
+.icon-block  h5{
+	font-size: 20px;
+    font-weight: 600;
+}
+.pay h1{
+	    background-color: #26a69a;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+	margin: 0px;
+}
+.pay{
+	text-align:center;
+	color:#000;
+
+}
+.pay p{
+  padding:20px; 
+    font-size: 20px;
+    line-height: 35px;  
+}
+.payy{
+	height: 346px;
+	margin-top: 24%;
+	margin-bottom: 20%;
+    border: 2px solid #26a69a;
+}
+.row-lang{
+	padding: 81px 0px;
+}
+#pay-button{
+	margin-top: 35px;
+}
+.red
+{
+    background-color:red;
+}
+#lang-button{
+	width:100%;margin-top:30px;
+}
+
+.footer{
+	background-color:#26a69a;
+}
+.header{
+	font-size: 30px;
+    font-weight: 800;
+}
+.teal.lighten-1:hover,.teal.lighten-1:focus{
+	text-decoration:none;
+	color:#fff;
+}
+.link img{
+ height: 26px;
+    /* padding: 4px; */
+    margin-left: 20px;
+}
+.material-icons{
+	color:#26a69a;
+}
+.icon-block  p{
+	font-size: 17px;
+}
+.loginmodal-container a {
+  text-decoration: none;
+  color: #26a69a;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+   font-size: 14px;
+  transition: opacity ease 0.5s;
+}
+.loginmodal-container a  hover{
+	color: #26a69a;
+} 
+
+.login-help{
+  font-size: 12px;
+}
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 350px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
